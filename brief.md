@@ -1,8 +1,8 @@
 Version: NAFATH-V1
-Track: <one of: Software | AI | Mobile | Networking | Cybersecurity | Data>
+Track:  Software 
 
 ## Overview
-
+Citizens can now access government services securely and reliably with a single sign-on service that integrates six IT fields.
 ## Software
 
 ## AI
