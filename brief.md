@@ -1,5 +1,5 @@
 Version: NAFATH-V1
-Track:  Cybersecurity 
+Track: Cybersecurity 
 
 ## Overview
 Through the single sign-on service, citizens can access multiple government services with one account using a website or mobile app. User authentication and application access to protected resources are defined by software standards. While artificial intelligence can detect suspicious login activity, its risks must be assessed and monitored. Using mobile security limits access to sensitive device features, while secure networking protects online data. Phishing and account theft can be prevented with strong authentication methods. Additionally, the authority must comply with Omani legal requirements and protect citizens' personal data. Security, reliability, accessibility, and trustworthiness are all achieved through the integration of these six IT fields. To implement secure single sign-on, it is essential to understand OAuth 2.0 authorization and OpenID Connect authentication
