@@ -2,30 +2,33 @@ Version: NAFATH-V1
 Track: Cybersecurity 
 
 ## Overview
-Through the single sign-on service, citizens can access multiple government services with one account using a website or mobile app. User authentication and application access to protected resources are defined by software standards. While artificial intelligence can detect suspicious login activity, its risks must be assessed and monitored. Using mobile security limits access to sensitive device features, while secure networking protects online data. Phishing and account theft can be prevented with strong authentication methods. Additionally, the authority must comply with Omani legal requirements and protect citizens' personal data. Security, reliability, accessibility, and trustworthiness are all achieved through the integration of these six IT fields. To implement secure single sign-on, it is essential to understand OAuth 2.0 authorization and OpenID Connect authentication
+A national service provider must protect its digital services from hidden compromises across six IT fields. Software security ensures applications and updates are trustworthy, while AI security protects models and training data from manipulation. Mobile security safeguards devices, applications, and sensitive information. Networking security protects internet routes and communications from unauthorized changes. Cybersecurity provides overall protection through access controls, continuous monitoring, and incident response. Data protection maintains the confidentiality, accuracy, and availability of important information. Together, these fields help identify vulnerabilities, prevent attacks, and reduce security risks. Integrating these measures into project planning and system maintenance helps ensure reliable government services, protect citizens’ information, and maintain public trust.
 ## Software
-Single sign-on (SSO) integrates software engineering, OAuth 2.0 authorization, and OpenID Connect authentication to enable secure access to government applications. APIs manage service communication, while AI detects suspicious login patterns. Secure coding, mobile application security, and network protocols protect data. Software systems must also comply with Omani regulations, ensuring reliability, privacy, accessibility, and interoperability.
-
-Resource: Google identity - https://developers.google.com/identity/openid-connect/openid-connect
+A national service provider should use secure software development practices to prevent attackers from secretly changing applications or exploiting vulnerabilities. The project team should verify suppliers, review source code, test updates before release, and monitor software components throughout their lifecycle. These measures reduce the risk of compromised software affecting essential public services.
+Resource: NIST SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1 - https://csrc.nist.gov/pubs/sp/800/218/final
 ## AI
-Artificial intelligence improves government services through machine learning algorithms, data analysis, and automated decision-making. Software engineering supports reliable AI system development, while cybersecurity protects models and sensitive data. Network security prevents unauthorized access, and mobile security safeguards applications. AI solutions must ensure accuracy, transparency, and ethical operation while complying with Omani regulations and protecting citizens’ privacy.
+Artificial intelligence models may be manipulated through poisoned training data, malicious inputs, or unauthorized model changes. The provider should validate training data, test models against attacks, monitor unusual outputs, and control access to models. Regular evaluations and documented risk assessments help ensure that AI decisions remain reliable, secure, and suitable for critical services.
+Resource: NIST AI Risk Management Framework - https://www.nist.gov/itl/ai-risk-management-framework
 
-Resource: UNESCO – Oman AI Profile (2026) - https://www.unesco.org/ethics-ai/en/global-hub/oman
 ## Mobile
-For Oman’s government SSO mobile app, Android’s runtime permission model protects citizens’ privacy by restricting access to sensitive device features. The app requests permissions only when necessary, such as camera access for identity document scanning. Users can grant or deny requests, ensuring controlled access to device resources and supporting secure authentication, data protection, and compliance with privacy requirements.
-
+Mobile applications can expose sensitive information if they contain insecure storage, excessive permissions, or weak authentication. The provider should require multifactor authentication, encrypt sensitive information, limit device permissions, and regularly test applications for security weaknesses. Updates should be verified before installation to reduce the risk of malicious modifications affecting users or public services.
+Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 Resource: 
 Android Developers – Permissions on Android - https://developer.android.com/guide/topics/permissions/overview
+
 ## Networking
-Networking protects citizens’ privacy in Oman’s government SSO system by securing communication between mobile applications and government servers. Encryption protocols such as HTTPS prevent unauthorized access to login credentials and personal data. Providing reliable and confidential access to government services requires firewalls and secure network configurations that prevent cyberattacks and malicious redirection.
-Resource: OWASP – Transport Layer Security (TLS) Cheat Sheet - https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html
+Internet routes can be manipulated to redirect traffic through unauthorized networks, potentially exposing or altering communications. The provider should use encrypted connections, secure DNS practices, and BGP route-origin validation to reduce these risks. Network monitoring, route filtering, and redundant connections can help detect suspicious routing changes and maintain reliable access to essential services.
+Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
+
 ## Cybersecurity
-Cybersecurity safeguards citizens personal data in Oman’s government SSO system by blocking unauthorized access to user accounts and sensitive information. Multi-factor authentication, encryption, firewalls, and continuous monitoring help detect cyberattacks, phishing, and data breaches. These security measures strengthen account protection, maintain data confidentiality, and build citizens’ trust in digital government services.
-Resource: Oman Ministry of Transport, Communications and Information Technology (MTCIT) — Personal Data Protection Law and regulations - https://www.mtcit.gov.om/sectors/governance/personal
+Cybersecurity protects the provider’s systems against unauthorized access, malware, phishing, and supply-chain attacks. The organization should enforce least-privilege access, multifactor authentication, continuous monitoring, vulnerability management, and incident-response procedures. It should also assess third-party suppliers and verify software integrity to identify suspicious changes early and reduce the impact of potential security breaches.
+Resource: CISA - Secure by Demand Guide: How Software Customers Can Drive a Secure Technology Ecosystem - https://www.cisa.gov/sites/default/files/2024-08/SecureByDemandGuide_080624_508c.pdf
+
 ## Data
-Protecting data privacy enables Oman’s government SSO system to safeguard citizens’ personal information throughout its collection, storage, and processing. Data minimization limits unnecessary information collection, while access controls prevent unauthorized use. Encryption and secure storage reduce data breach risks. Following government data protection policies strengthens confidentiality, transparency, and citizens’ trust in digital services.
-Resource: Oman MTCIT – Personal Data Protection Policy - https://www.mtcit.gov.om/media-4/news-announcements-11/news-85/mtcit-issues-data-protection-policy-180
+Data protection ensures that citizens’ personal information and critical service records remain confidential, accurate, and available. The provider should encrypt sensitive data, restrict access according to job responsibilities, maintain secure backups, and monitor unauthorized changes. Regular audits and clear data-handling policies help reduce privacy risks and support compliance with applicable data-protection requirements.
+Resource: NIST - Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management - https://www.nist.gov/privacy-framework/privacy-framework
+
 ## Misconception in My Track
-The myth that single sign-on (SSO) is less secure is based on the fact that users can access multiple government services through one account makes SSO seem less secure.Implementing SSO with strong authentication, encryption, and proper access controls can improve security. It is essential, however, to protect the central account since it provides access to multiple services.
+The myth that using trusted software, AI models, mobile applications, and internet routes automatically guarantees security. Even trusted systems can contain vulnerabilities or be compromised, so organizations must continuously test, monitor, and protect them.
 ## Open Question
-What can Oman's government do to improve its single sign-on (SSO) system to provide secure and convenient access to digital services while protecting citizens' personal information from cyber threats and unauthorized access?
+How can a national service provider ensure that its software, AI models, mobile applications, internet routes, and data remain secure from hidden compromises as technology evolves?
