@@ -15,14 +15,17 @@ Resource: NIST AI Risk Management Framework - https://www.nist.gov/itl/ai-risk-m
 
 ## Mobile
 Mobile applications can expose sensitive information if they contain insecure storage, excessive permissions, or weak authentication. The provider should require multifactor authentication, encrypt sensitive information, limit device permissions, and regularly test applications for security weaknesses. Updates should be verified before installation to reduce the risk of malicious modifications affecting users or public services.
+
 Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 
 ## Networking
 Internet routes can be manipulated to redirect traffic through unauthorized networks, potentially exposing or altering communications. The provider should use encrypted connections, secure DNS practices, and BGP route-origin validation to reduce these risks. Network monitoring, route filtering, and redundant connections can help detect suspicious routing changes and maintain reliable access to essential services.
+
 Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
 
 ## Cybersecurity
 Cybersecurity protects the provider’s systems against unauthorized access, malware, phishing, and supply-chain attacks. The organization should enforce least-privilege access, multifactor authentication, continuous monitoring, vulnerability management, and incident-response procedures. It should also assess third-party suppliers and verify software integrity to identify suspicious changes early and reduce the impact of potential security breaches.
+
 Resource: CISA - Secure by Demand Guide: How Software Customers Can Drive a Secure Technology Ecosystem - https://www.cisa.gov/sites/default/files/2024-08/SecureByDemandGuide_080624_508c.pdf
 
 ## Data
